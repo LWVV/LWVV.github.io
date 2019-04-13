@@ -7,13 +7,6 @@
 
 
 
-  
-  
-    
-    
-  
-  
-
 
 
 
@@ -1936,7 +1929,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #74a483;
+  background: #edadff;
 }
 .feed-link,
 .chat {
@@ -3313,7 +3306,7 @@ code {
   </style>
 </noscript>
 
-<script>function loadCss(l){var d=document,h=d.head,s=d.createElement('link');s.rel='stylesheet';s.href=l;!function e(f){if (d.body)return f();setTimeout(function(){e(f)})}(function(){h.appendChild(s);});}loadCss('/style.css');loadCss('https://fonts.loli.net/css?family=Noto%20Serif%20SC:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext');loadCss('cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css');</script><noscript><link rel="stylesheet" href="/style.css"><link rel="stylesheet" href="https://fonts.loli.net/css?family=Noto%20Serif%20SC:300,300italic,400,400italic,700,700italic&amp;subset=latin,latin-ext"><link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css"></noscript></head>
+<script>function loadCss(l){var d=document,h=d.head,s=d.createElement('link');s.rel='stylesheet';s.href=l;!function e(f){if (d.body)return f();setTimeout(function(){e(f)})}(function(){h.appendChild(s);});}loadCss('https://fonts.loli.net/css?family=Noto%20Serif%20SC:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext');loadCss('cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css');</script><noscript><link rel="stylesheet" href="https://fonts.loli.net/css?family=Noto%20Serif%20SC:300,300italic,400,400italic,700,700italic&amp;subset=latin,latin-ext"><link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css"></noscript></head>
 
 <body itemscope="" itemtype="http://schema.org/WebPage" lang="zh-CN">
 
@@ -3381,7 +3374,7 @@ code {
         
         
           
-          <li class="menu-item menu-item-about">
+          <li class="menu-item menu-item-top">
 
     
     
@@ -3391,7 +3384,7 @@ code {
 
     
 
-    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>关于</a>
+    <a href="/top/" rel="section"><i class="menu-item-icon fa fa-fw fa-signal"></i> <br>TopX</a>
 
   </li>
         
@@ -3460,6 +3453,23 @@ code {
     
 
     <a href="/schedule/" rel="section"><i class="menu-item-icon fa fa-fw fa-calendar"></i> <br>日程表</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-about">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>关于</a>
 
   </li>
 
@@ -4040,7 +4050,11 @@ code {
 
   
 
-
+<script>
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
 
 
 
@@ -4212,9 +4226,7 @@ code {
 
 
 
-<script type="text/javascript" src="/bundle.js"></script><script type="text/javascript">if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
-    window.Promise = null;
-  };var GUEST = ['nick', 'mail', 'link'];
+<script type="text/javascript" src="/bundle.js"></script><script type="text/javascript">var GUEST = ['nick', 'mail', 'link'];
   var guest = 'nick,mail,link';
   guest = guest.split(',').filter(function(item) {
     return GUEST.indexOf(item) > -1;
