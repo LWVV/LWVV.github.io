@@ -1775,7 +1775,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #7effff;
+  background: #34ffff;
 }
 .feed-link,
 .chat {
@@ -3125,4 +3125,8 @@ code {
 }
 .busuanzi-value {
   color: #1890ff;
+}
+去除顶部加载条(加速博客)：,
+#instantclick {
+  display: none;
 }
