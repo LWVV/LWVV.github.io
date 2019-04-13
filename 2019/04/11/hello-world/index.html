@@ -1948,7 +1948,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #fff5cd;
+  background: #bd0e36;
 }
 .feed-link,
 .chat {
@@ -4479,6 +4479,10 @@ p#div-border-top-purple {
 
 
 
+  
+  
+
+
 
 
 <!--鼠标点击四级单词动画-->
@@ -4847,7 +4851,9 @@ p#div-border-top-purple {
       if (shouldDismissSearchPopup) {
         onPopupClose();
       }
-    });;InstantClick.init();;var OriginTitile = document.title;
+    });;InstantClick.init();;POWERMODE.colorful = true;
+    POWERMODE.shake = false;
+    document.body.addEventListener('input', POWERMODE);;var OriginTitile = document.title;
     var titleTime;
     document.addEventListener('visibilitychange', function() {
       if (document.hidden) {
